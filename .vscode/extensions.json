@@ -1,0 +1,8 @@
+{
+  "recommendations": ["Vue.volar"],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": ["javascript", "typescript", "vue"],
+  "editor.formatOnSave": false
+}
