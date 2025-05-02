@@ -16,7 +16,8 @@
       "@c/*": ["src/components/*"],
       "@a/*": ["src/assets/*"],
       "@s/*": ["src/store/*"]
-    }
+    },
+    "resolveJsonModule": true // 允许导入 JSON
   },
   "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue", "src/**/*.d.ts"]
 }

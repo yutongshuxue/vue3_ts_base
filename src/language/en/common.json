@@ -1,0 +1,8 @@
+{
+  "common": {
+    "welcome": "Welcome",
+    "language": "Language",
+    "confirm": "Confirm",
+    "cancel": "Cancel"
+  }
+}

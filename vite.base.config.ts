@@ -1,5 +1,6 @@
-import { defineConfig } from 'vite'
+import VueI18nPlugin from '@intlify/unplugin-vue-i18n/vite'
 import path from 'path'
+import { defineConfig } from 'vite'
 // https://vite.dev/config/
 export default defineConfig({
   resolve: {
@@ -9,5 +10,10 @@ export default defineConfig({
       '@c': path.resolve(__dirname, './src/components'),
       '@s': path.resolve(__dirname, './src/store')
     }
-  }
+  },
+  plugins: [
+    VueI18nPlugin({
+      include: [path.resolve(__dirname, './src/language/**')]
+    })
+  ]
 })
